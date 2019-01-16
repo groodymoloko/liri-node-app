@@ -28,18 +28,22 @@ switch (liriCommand) {
 }
 
 function concert() {
+    if (liriProperty === "" || liriProperty === undefined) {
+        console.log("*******************");
+        console.log("You must enter a band name!");
+    } else {
+    console.log(liriProperty);
     axios.get("https://rest.bandsintown.com/artists/" + liriProperty + "/events?app_id=codingbootcamp").then(
         function(response) {
         console.log("******************");
         console.log("VENUE: " + response.data[0].venue.name);
         console.log("CITY: " + response.data[0].venue.city);
         console.log("DATE: " + moment(response.data[0].datetime).format("MM/DD/YYYY"));
-        
     });
+    }   
 }
 
 function spot() {
-    console.log(liriProperty);
     if (liriProperty === "" || liriProperty === undefined) {
         liriProperty = "The Sign, Ace of Base";
     }
