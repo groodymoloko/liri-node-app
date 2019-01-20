@@ -15,6 +15,11 @@ LiriBOT makes use of the following command line arguments to retrieve and displa
 * **movie-this**: enter a movie title after this argument to get the movie's year, list of actors, etc.
 * **do-what-it-says**: run this command without any additional arguments to retrieve information from a separate text file
 
+## Code
+Analyse the liri.js file for code specifics.  LiriBOT uses a switch statement to evaluate user input from the command line and kick off the appropriate function.
+
+The keys.js file holds information on required API keys for Spotify.
+
 ## Examples
 * $ node liri.js concert-this Muse
 * $ node liri.js spotify-this-song Funkytown
