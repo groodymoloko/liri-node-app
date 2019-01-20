@@ -1,9 +1,9 @@
 # liri-node-app (LiriBOT)
 
-## NPM Modules
-LiriBOT is a Node command line application that can fetch information using the following NPM modules:
-* node-spotify-api
-* axios
+## NPM Modules & APIs
+LiriBOT is a Node command line application that can fetch information using the following NPM modules and APIs:
+* node-spotify-api (Spotify)
+* axios (BandsInTown and OMDB)
 * fs
 * moment
 * dotenv
