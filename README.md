@@ -1,4 +1,4 @@
-# liri-node-app
+# liri-node-app (LiriBOT)
 
 ## NPM Modules
 LiriBOT is a Node command line application that can fetch information using the following NPM modules:
