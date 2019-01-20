@@ -21,7 +21,7 @@ LiriBOT makes use of the following command line arguments to retrieve and displa
 * $ node liri.js movie-this Ghostbusters
 * $ node liri.js do-what-it-says
 
-The following two screenshots show the outpue for some examples of the various modules included in LiriBOT:
+The following two screenshots show the outpue for some examples of the various modules included in LiriBOT (note that leaving out the final argument can result in a default value).
 
 ![Application Examples](/screenshot1.jpg?raw=true)
 
