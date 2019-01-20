@@ -16,10 +16,10 @@ LiriBOT makes use of the following command line arguments to retrieve and displa
 * **do-what-it-says**: run this command without any additional arguments to retrieve information from a separate text file
 
 ## Examples
-$ node liri.js concert-this Muse
-$ node liri.js spotify-this-song Funkytown
-$ node liri.js movie-this Ghostbusters
-$ node liri.js do-what-it-says
+* $ node liri.js concert-this Muse
+* $ node liri.js spotify-this-song Funkytown
+* $ node liri.js movie-this Ghostbusters
+* $ node liri.js do-what-it-says
 
 The following two screenshots show the outpue for some examples of the various modules included in LiriBOT:
 
