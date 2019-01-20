@@ -20,6 +20,12 @@ Analyse the liri.js file for code specifics.  LiriBOT uses a switch statement to
 
 The keys.js file holds information on required API keys for Spotify.
 
+To make this application work properly, create a file called .env in the root directory with the following information:
+#Spotify API keys
+
+SPOTIFY_ID=your-spotify-id
+SPOTIFY_SECRET=your-spotify-secret
+
 ## Examples
 * $ node liri.js concert-this Muse
 * $ node liri.js spotify-this-song Funkytown
